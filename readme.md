@@ -20,3 +20,10 @@ O arquivo Devcontainer.json e Dockerfile contém as instruções para o Docker m
 
 #### Execução do container
 Com as opções do VSCODE ("F1") será possível reabrir o ambiente diramente no Container já configurado.
+
+### Apache
+É necessário inicializar o Apache.
+
+```bash
+service apache2 start
+```
